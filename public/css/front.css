@@ -1,0 +1,343 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-form {
+    min-height: 100vh;
+    width: 80vw;
+    margin: 0 10vw;
+    font-family: Roboto;
+    font: size 100px;
+    font-weight: 400;
+    font-style: normal;
+}
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2em 2em 2em;
+    border: 1px solid #1c1c1c;
+}
+
+.title {
+    z-index: 10;
+    position: relative;
+    margin-bottom: -20px;
+    margin-top: 2em;
+}
+
+.title h2 {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: 0 20px;
+    color: #fff;
+    border: 2px solid #1c1c1c;
+    background-color: #56d0bb;
+}
+
+.form-box {
+    border: 2px solid #1c1c1c;
+    padding: 35px 20px 20px 20px;
+}
+
+header {
+    background-color: #45a9de;
+    height: 220px;
+    width: 100%;
+}
+
+.bcolor {
+    background-color: #45a9de;
+}
+
+/** Checkboxes, Radio Buttons and Drop Down Menus
+------------------------------------------------------------ */
+
+input:not([type="radio"], [type="checkbox"]) {
+    margin-bottom: 8px;
+    padding: 5px 7px;
+    border: 1px solid #55d1b7;
+    background: #f2f2f2;
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 1px;
+}
+
+.main-title {
+    font-weight: 600;
+    color: #505050;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 30px 0;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+    background: none;
+}
+
+input[type="submit"] {
+    padding: 5px 15px;
+    color: #fff;
+    background: #1c1c1c;
+}
+
+input[type="submit"]:hover {
+    color: #333;
+    background: #56d0bb;
+}
+*/ {
+    padding: 20px;
+    color: #000;
+    border: 1px solid #1c1c1c;
+    background: #fff;
+}
+
+/** Ordered & Unordered lists
+------------------------------------------------------------ */
+ol {
+    padding: 0;
+    margin-left: 15px;
+}
+
+/** Submit Buttons
+------------------------------------------------------------ */
+.submit {
+    padding: 5px 15px;
+    color: #fff;
+    background: #1c1c1c;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    color: #333;
+    background: #56d0bb;
+}
+
+.fa-clock-o {
+    font-size: 42px;
+    color: #0a6db7;
+}
+header {
+    padding: 70px 6% 50px 8%;
+}
+
+.grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.grid_2_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid_3 {
+    display: grid;
+    grid-template-columns: 3fr 9fr 2fr;
+}
+
+.grid_3_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 5vw;
+}
+
+.grid_3_3 {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+/* .grid_3 .logo {
+    margin-right: 100px;
+} */
+
+.header-icon {
+    padding: 0 12px 0 0;
+}
+
+/* .header-title {
+    display: inline-block;
+} */
+
+.header-title h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #242424;
+}
+
+.header-title p {
+    color: #505050;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.header-title a,
+.header-title a:link,
+.header-title a:visited {
+    color: #505050;
+    font-size: 13px;
+    text-decoration: none !important;
+}
+
+.header-contact {
+    border-radius: 50px;
+    background-color: #fff;
+    border: none;
+    color: #096cb7;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition-duration: 0.5s;
+}
+
+.header-contact:hover {
+    background-color: #096cb7;
+    color: #fff;
+}
+
+.logo img {
+    margin-top: -9px;
+    margin-left: 8px;
+}
+
+nav {
+    margin-left: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+nav a::before {
+    content: " ";
+    width: 3px;
+    height: 0.5px;
+    border-bottom: 1 solid #fff;
+}
+
+.search-form input {
+    display: inline;
+    padding: 20px 0 20px 12px;
+    background-color: #fff;
+    width: 220px;
+    border: none;
+}
+.section_1 {
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 80px;
+}
+
+.position {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 45%;
+}
+
+.position p,
+.position h1,
+.position a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.position h1 {
+    font-weight: 700;
+}
+
+.position p {
+    font-size: 1.2em;
+}
+
+.search-form button {
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color: #096cb7;
+}
+
+.search-form button:hover {
+    background-color: #096cb7;
+}
+
+.file {
+    margin-top: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="file"] {
+    display: inline-block;
+    max-width: 250px;
+    width: 60%;
+    padding: 120px 0 0 0;
+    height: 100px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png")
+        center center no-repeat #f2f2f2;
+    background-size: 60px 60px;
+    border: 2px dashed #ccc;
+    cursor: pointer;
+}
+
+.img-cont {
+    position: relative;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.box {
+    height: 30%;
+    position: relative;
+    padding: 5% 0;
+    top: 20vh;
+    margin: 0 25vw 25vh 25vw;
+    background-color: #fff;
+}
+
+.fa-lock,
+.fa-user {
+    font-size: 32px;
+    color: #096cb7;
+    margin-top: -6px;
+}
+
+.background-image {
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    top: 0;
+}
+
+.grey {
+    color: #333;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
